@@ -1,0 +1,97 @@
+section {
+    position: relative;
+    background-color: rgb(187, 43, 187);
+    width: 70%;
+    margin: 100px auto 0;
+    padding: 16px;
+}
+
+/* area to display the items  */
+ul {
+    padding: 0px;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+ul li input[type="checkbox"] {
+    width: 18%;
+    max-width: 1.5em;
+}
+
+ul li span {
+    width: 50%;
+    padding: 0 10px;
+}
+
+ul li button.regular_buttons {
+    width: 16%;
+}
+
+/* input_section */
+
+div.input_section {
+    width: 100%;
+    padding: 4%;
+}
+
+div.input_section input {
+    width: 80%;
+    border: none;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+div.input_section input:focus {
+    outline: none;
+}
+
+div.input_section button {
+    width: 10%;
+    text-align: right;
+}
+
+/* media query */
+div.sm_sc {
+    display: none;
+    color: black;
+    text-align: center;
+    padding: 4em;
+}
+
+@media only screen and (max-width: 480px) {
+    section {
+        display: none;
+    }
+
+    div.sm_sc {
+        display: inline;
+    }
+}
+
+/* common elements */
+
+button {
+    border: none;
+    background: none;
+}
+
+svg {
+    color: black;
+}
+
+button:disabled svg {
+    color: lightgray
+}
+
+input:focus,
+button:focus {
+    outline: none;
+    border: 2px solid purple;
+    box-shadow: 0 0 5px rgba(158, 10, 141, 0.392);
+}
