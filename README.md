@@ -36,6 +36,8 @@ local app serves at http://localhost:5173/
 
 ## Vist Application:
 
+https://krius2023.github.io/manage-list-using-local-storage/
+
 Thank you for visiting the readme page & application.
 
 I welcome your comments https://github.com/Krius2023 :)
